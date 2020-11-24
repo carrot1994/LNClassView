@@ -1,0 +1,6 @@
+framework module LNClassView {
+  umbrella header "LNClassView-umbrella.h"
+
+  export *
+  module * { export * }
+}

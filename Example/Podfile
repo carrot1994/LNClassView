@@ -1,10 +1,12 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'LNClassView_Example' do
   pod 'LNClassView', :path => '../'
-
+  pod 'JXCategoryView', '~> 1.5.6'
+  pod 'SDWebImage'
+  
   target 'LNClassView_Tests' do
     inherit! :search_paths
 

@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/carrot1994/LNClassView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'carrot1994' => 'zhoueh@hua-cloud.com.cn' }
+  s.author           = { 'carrot1994' => '1501556098@qq.com' }
   s.source           = { :git => 'https://github.com/carrot1994/LNClassView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LNClassView/Classes/**/*'
   
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'JXCategoryView', '~> 1.5.6'
+  s.dependency 'SDWebImage'
+  
 end
